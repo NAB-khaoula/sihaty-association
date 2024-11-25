@@ -3,6 +3,11 @@ module.exports = {
   content: ["./modules/**/*.{html,ts}",
     "./src/**/*.{html,ts}"],
   theme: {
+    variant: {
+      extent: {
+        padding: ['hover'],
+      }
+    },
     extend: {
       colors: {
         primary: '#1A4D2E',  // Forest Green
