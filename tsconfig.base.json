@@ -15,9 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@association/orders": ["modules/orders/src/index.ts"],
-      "@association/products": ["modules/products/src/index.ts"],
-      "@association/ui": ["modules/shared/src/index.ts"]
+      "@association/ui": ["modules/home/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -7,12 +7,4 @@ export const appRoutes: Route[] = [
         component: HomeComponent,
         pathMatch: 'full'
     },
-    {
-        path: 'products',
-        loadComponent: () => import('@association/products').then((c) => c.ProductsComponent)
-    },
-    {
-        path: 'orders',
-        loadComponent: () => import('@association/orders').then((c) => c.OrdersComponent)
-    },
 ];
