@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@association/ui": ["modules/home/src/index.ts"]
+      "@association/contact-form": ["modules/contact/src/index.ts"],
+      "@association/home": ["modules/home/src/index.ts"],
+      "@association/contact": ["modules/contact/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

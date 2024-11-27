@@ -3,10 +3,10 @@ import { CommonModule } from '@angular/common';
 import { SvgIconComponent } from 'angular-svg-icon';
 
 @Component({
-  selector: 'lib-about',
+  selector: 'lib-help',
   standalone: true,
   imports: [CommonModule, SvgIconComponent],
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.css',
+  templateUrl: './help.component.html',
+  styleUrl: './help.component.css',
 })
-export class AboutComponent {}
+export class HelpComponent {}
