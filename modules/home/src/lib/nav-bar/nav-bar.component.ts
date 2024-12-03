@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+
 @Component({
   selector: 'lib-nav-bar',
   standalone: true,
@@ -8,4 +9,9 @@ import { CommonModule } from '@angular/common';
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.css',
 })
-export class NavBarComponent {}
+export class NavBarComponent {
+  isOpen = false;
+  toggle() {
+    this.isOpen = !this.isOpen;
+  }
+}
