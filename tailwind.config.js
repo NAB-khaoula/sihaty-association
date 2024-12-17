@@ -15,6 +15,8 @@ module.exports = {
         beige: '#E8DFCA',  // Beige
         ivory: '#F5EFE6',  // Ivory
         accent: '#F0BE86',  // Peach
+        backgroundColor: '#faf9f9',
+        textColor: '#b3b9ca'
       },
     },
   },
