@@ -18,6 +18,15 @@ module.exports = {
         backgroundColor: '#faf9f9',
         textColor: '#b3b9ca'
       },
+      keyframes: {
+        smoothScroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        smoothScroll: 'smoothScroll 10s linear infinite',
+      },
     },
   },
   plugins: [
