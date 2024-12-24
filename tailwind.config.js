@@ -19,13 +19,13 @@ module.exports = {
         textColor: '#b3b9ca'
       },
       keyframes: {
-        smoothScroll: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' },
+        "loop-scroll": {
+          from: {transform: "translateX(0)"},
+          to: {transform: "translateX(-100%)"}
         },
       },
       animation: {
-        smoothScroll: 'smoothScroll 10s linear infinite',
+        "loop-scroll": 'loop-scroll 10s linear infinite',
       },
     },
   },
