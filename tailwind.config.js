@@ -6,9 +6,7 @@ module.exports = {
     variant: {
       extent: {
         padding: ['hover'],
-      }
-    },
-    extend: {
+      },
       colors: {
         primary: '#1A4D2E',  // Forest Green
         secondary: '#4F6F52',  // Olive
@@ -25,8 +23,11 @@ module.exports = {
         },
       },
       animation: {
-        "loop-scroll": 'loop-scroll 10s linear infinite',
+        "loop-scroll": 'loop-scroll 25s linear infinite',
       },
+      backgroundImage: {
+        'flower': "url('/images/flower.svg')"
+      }
     },
   },
   plugins: [
